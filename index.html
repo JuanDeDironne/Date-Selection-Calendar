@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date Selection by Calendar</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/ds_cal.css">
+  <script src="./js/ds_cal.js"></script>
+</head>
+
+
+<body>
+
+<main>
+
+<form>
+<div class="form">
+  <div class="form-line">
+    <div class="form-cel">
+      <label for="lastname">Lastname</label>
+      <input type="text" name="lastname" id="lastname" value="QUIDAM">
+    </div>  
+    <div class="form-cel">
+      <label for="firstname">Firstname</label>
+      <input type="text" name="firstname" id="firstname" value="Anatole">
+    </div>
+    <div class="form-cel">
+      <label for="birthdate">Birthdate</label>
+      <input type="text" class="input-date ds-cal-input-date" name="birthdate" id="birthdate" value="27-10-1971">
+    </div>
+  </div>
+  <div class="form-line">
+    <div class="form-cel">
+      <label for="company">Company</label>
+      <input type="text" name="company" id="company" value="DAV' SAS">
+    </div>
+    <div class="form-cel">
+      <label for="dateHire">Date of Hire</label>
+      <input type="text" class="input-date ds-cal-input-date" name="dateHire" id="dateHire" value="08-02-2026">
+    </div>
+  </div>
+  <div class="form-line">
+    <div class="form-cel">
+      <label for="dateXXX">Date XXX</label>
+      <input type="text" class="input-date ds-cal-input-date" name="dateXXX" id="dateXXX" value="">
+    </div>
+  </div>
+</div>
+</form>
+</main>
+
+<script>
+// Line to add for Use: Date Selection by Calendar -> Work with Inputs which having "ds-cal-input-date" class
+ds_cal_use();
+</script>
+  
+</body>
+</html>
