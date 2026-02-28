@@ -12,6 +12,6 @@ Add the class <b>ds-cal-input-date</b> to the input tags where you want to use t
 Example :<br />
 ```<input type="text" class="ds-cal-input-date" id="birthdate">```
 
-And insert (just on time) the line <b>ds_cal_use()</b> at the bottom of your page (in a script tags).<br />
+And insert (just once) the line <b>ds_cal_use()</b> at the bottom of your page (in a script tags).<br />
 Example :<br />
 `<script>ds_cal_use()</script>`
