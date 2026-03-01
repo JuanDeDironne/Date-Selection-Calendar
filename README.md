@@ -1,13 +1,13 @@
 # Date Selection by Calendar
 
-### Description
+## Description
 JavaScript and CSS code to display a simple and user-friendly calendar.
 With simple configuration in the JavaScript code (ds_cal.js) if needed for a few adjustments. And a dedicated CSS (ds_cal.css) for easy color changes
 
-### ScreenShot
+## ScreenShot
 ![calendarScreenshot](https://raw.githubusercontent.com/JuanDeDironne/Date-Selection-Calendar/refs/heads/main/screenshot_a.png)
 
-### Usage
+## Usage
 Link **ds_cal.css** and add script **ds_cal.js** in your page.<br />
 Add the class **ds-cal-input-date** to the input tags where you want to use the calendar selector.<br />
 Example :<br />
