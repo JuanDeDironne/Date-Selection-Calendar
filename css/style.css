@@ -1,0 +1,68 @@
+/* Reset Comportements */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html,body {
+  background: white;
+  font-family: Arial;
+  font-size: 1em;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: black;
+}  
+
+input {
+  font-family: Arial;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 4px;
+}
+
+textarea, input, button{
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #1392D5;    
+}
+
+main {
+  padding: 10px;
+}
+
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;  /* Distance between each "line" of the form */
+  padding: 15px;
+  background-color: #E5E5E5;
+  border: 2px solid #087BB7;
+  border-radius: 10px;
+}
+
+.form-line {
+  display: flex;
+  gap: 20px;  /* Distance between each "Cell" of the form */
+}
+
+.form-cel {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-date {
+  max-width: 100px;
+  text-align: center;
+}
