@@ -5,7 +5,7 @@ JavaScript and CSS code to display a simple and user-friendly calendar.
 With simple configuration in the JavaScript code (ds_cal.js) if needed for a few adjustments. And a dedicated CSS (ds_cal.css) for easy color changes
 
 ## ScreenShot
-![calendarScreenshot](https://raw.githubusercontent.com/JuanDeDironne/Date-Selection-Calendar/refs/heads/main/screenshot_a.png?token=GHSAT0AAAAAADWKOQZL7WUAIR6DP3PKHA4G2NG4PLQ)
+![calendarScreenshot](https://raw.githubusercontent.com/JuanDeDironne/Date-Selection-Calendar/refs/heads/main/screenshot_a.png)
 
 ## Usage
 Link **ds_cal.css** and add script **ds_cal.js** in your page.<br />
